@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0">  
+<dict>  
+  <key>Label</key>  
+  <string>com.feiqi.test.plist</string>  
+  <key>ProgramArguments</key>  
+  <array>  
+    <string>/Users/feiqizhang/desktop/rundaily.command</string>  
+  </array>  
+  <key>StartCalendarInterval</key>  
+  <dict>  
+        <key>Minute</key>  
+        <integer>05</integer>  
+        <key>Hour</key>  
+        <integer>17</integer>  
+  </dict>  
+  <key>StandardOutPath</key>  
+<string>/Users/feiqizhang/Downloads/abc.log</string>  
+<key>StandardErrorPath</key>  
+<string>/Users/feiqizhang/Downloads/abcerror.log</string>  
+</dict>  
+</plist> 

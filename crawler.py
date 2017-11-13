@@ -17,7 +17,7 @@ key_word_set = set()
 #note: if uisng r, return normal string; if using rb, return binary.  It will impact the following string processing.
 #note: if there is Chinese (non-English) characters in data.txt, we need explicitly assign encoding = utf-8 here
 #note: for each line, when we save it in the list, we'd better remove the line return cahracter - \n, otherwise it may cause trouble later
-data_file = open("data.txt", "r", encoding = "UTF-8")
+data_file = open("/users/feiqizhang/desktop/gitsmart/mac-plist/data.txt", "r", encoding = "UTF-8")
 
 break_line = 0
 
@@ -38,15 +38,15 @@ data_file.close()
 
 
 for url in url_set:
-	print (url)
+	#print (url)
 	page = requests.get(url)
 	soup = BeautifulSoup(page.text,"lxml")
 
 	for key_word in key_word_set:
-		print(key_word)
+		#print(key_word)
 		find = soup.find_all('a',text=re.compile(key_word))
-		print(find)	
+		#print(find)	
 		for link in find:	
-			print(link.get('href'))	
-			#webbrowser.open_new_tab(link.get('href'))
+			#print(link.get('href'))	
+			webbrowser.open_new_tab(link.get('href'))
 

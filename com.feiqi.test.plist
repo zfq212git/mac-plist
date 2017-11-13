@@ -6,7 +6,7 @@
   <string>com.feiqi.test.plist</string>  
   <key>ProgramArguments</key>  
   <array>  
-    <string>/Users/feiqizhang/desktop/rundaily.command</string>  
+    <string>/Users/feiqizhang/desktop/gitSmart/mac-plist/rundaily.command</string>  
   </array>  
   <key>StartCalendarInterval</key>  
   <dict>  

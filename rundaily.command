@@ -4,6 +4,6 @@
 
 cd /users/feiqizhang &&
 
-/usr/bin/python /users/feiqizhang/desktop/gitsmart/crawler1/crawler.py
+/users/feiqizhang/anaconda/bin/python3.6 /users/feiqizhang/desktop/gitsmart/mac-plist/crawler.py
 
 

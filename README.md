@@ -15,3 +15,5 @@ build a plist for managing to run a task at a designated time
 
 #注意
 各个代码里有绝对路径，如果路径变了，需要改下代码。
+
+chmod u+x xxx    ---  如果plist里面的文件不执行，可能是要赋下“可执行”这个命令，确保执行。  'u'代表owner； 'x'代表可执行

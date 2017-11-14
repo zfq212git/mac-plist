@@ -1,5 +1,8 @@
 # -*- coding: UTF-8 -*-
 
+import os
+import sys
+
 import urllib
 import webbrowser
 
@@ -17,7 +20,7 @@ key_word_set = set()
 #note: if uisng r, return normal string; if using rb, return binary.  It will impact the following string processing.
 #note: if there is Chinese (non-English) characters in data.txt, we need explicitly assign encoding = utf-8 here
 #note: for each line, when we save it in the list, we'd better remove the line return cahracter - \n, otherwise it may cause trouble later
-data_file = open("/users/feiqizhang/desktop/gitsmart/mac-plist/data.txt", "r", encoding = "UTF-8")
+data_file = open(os.path.dirname(os.path.realpath(__file__))+'/data.txt', "r", encoding = "UTF-8")
 
 break_line = 0
 

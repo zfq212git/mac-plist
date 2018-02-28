@@ -1,3 +1,5 @@
+The code was developed under Python3.6.   Need to pip install "requests", "bs4", and "lxml"
+
 # mac-plist
 build a plist for managing to run a task at a designated time
 

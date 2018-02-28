@@ -1,4 +1,8 @@
-The code was developed under Python3.6.   Need to pip install "requests", "bs4", and "lxml"
+> The code was developed under Python3.6.   Need to pip install "requests", "bs4", and "lxml"
+
+> 这个代码处理不了动态生成的网页，比如www.36kr.com
+
+> BeautifulSoup这样的parser也是有它的限制。 因为网页虽然都是基于html/css写出来的，里面灵活度很大，有些情况美丽汤这样的包也是没考虑到的。
 
 # mac-plist
 build a plist for managing to run a task at a designated time
